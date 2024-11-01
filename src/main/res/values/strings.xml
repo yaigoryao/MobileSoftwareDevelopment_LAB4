@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="color_spinner_label">Выберите цвет</string>
+    <string name="manufacturer_spinner_label">Выберите производителя</string>
+    <string name="passenger_capacity_edit_text_watermark">Выберите вместительность</string>
+    <string name="engine_power_edit_text_watermark">Выберите мощность двигателя</string>
+    <string name="tank_capacity_edit_text_watermark">Выберите емкость бака</string>
+    <string name="add_bus_button_text">Добавить автобус</string>
+    <string name="cancel_button_text">Отмена</string>
+
+    <string name="open_add_bus_menu_button">Добавить автобус</string>
+    <string name="remove_bus_menu_button">Удалить автобус</string>
+    <string name="load_bus_button">Загрузить автобусы</string>
+    <string name="sort_buses_button">Сортировать по вместительности</string>
+    <string name="group_bus_button">Сгруппировать по цвету и производителю</string>
+    <string name="avg_engine_power_button">Средняя мощность двигателей</string>
+    <string name="get_total_passenger_capacity_button">Сумма вместимости автобусов</string>
+    <string name="get_max_passenger_capacity_button">Максимальная вместимость автобуса</string>
+    <string name="tank_capacity_less_than_button">Вместимость бака больше...</string>
+    <string name="engine_power_less_than_avg_button">Мощность двигателя меньше (ср.)...</string>
+    <string name="get_passenger_capacity_greater_than">Всего пассажиров больше чем...</string>
+
+    <string name="bus_id_text_view">ID</string>
+    <string name="bus_color_text_view">Цвет</string>
+    <string name="bus_manufacturer_text_view">Производитель</string>
+    <string name="bus_passenger_capacity_text_view">Вместимость, пассижиров</string>
+    <string name="bus_engine_power_text_view">Мощность двигателя, л.с.</string>
+    <string name="bus_tank_capacity_text_view">Емкость бака, л.</string>
+
+    <string name="color_group_name">Цвет</string>
+    <string name="manufactorer_group_name">Производитель</string>
+    <string name="total_passengers">Всего пассажиров</string>
+
+    <string name="avg_engine_power">Средняя мощность двигателя</string>
+</resources>

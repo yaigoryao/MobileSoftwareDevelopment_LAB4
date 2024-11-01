@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".AddBusActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <Spinner
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/color_spinner"
+        android:prompt="@string/color_spinner_label"
+        />
+    <Spinner
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manufacturer_spinner"
+        android:prompt="@string/manufacturer_spinner_label"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passenger_capacity_edit_text_watermark"
+        android:id="@+id/passenger_capacity_edit_text_label1" />
+    <EditText
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passenger_capacity_edit_text_watermark"
+        android:id="@+id/passenger_capacity_edit_text"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/engine_power_edit_text_watermark"
+        android:id="@+id/engine_power_edit_text_label1" />
+    <EditText
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/engine_power_edit_text_watermark"
+        android:id="@+id/engine_power_edit_text"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tank_capacity_edit_text_watermark"
+        android:id="@+id/tank_capacity_edit_text_label1" />
+    <EditText
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tank_capacity_edit_text_watermark"
+        android:id="@+id/tank_capacity_edit_text"
+        android:inputType="numberDecimal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:id="@+id/cancel_button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cancel_button_text"/>
+        <Button
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:id="@+id/add_bus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_bus_button_text"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_sort_buses"
+        app:showAsAction="never"
+        android:title="@string/sort_buses_button"/>
+    <item
+        android:id="@+id/menu_group_buses"
+        app:showAsAction="never"
+        android:title="@string/group_bus_button"/>
+    <item
+        android:id="@+id/menu_total_passenger_capacity"
+        app:showAsAction="never"
+        android:title="@string/get_total_passenger_capacity_button"/>
+    <item
+        android:id="@+id/menu_avg_engine_power"
+        app:showAsAction="never"
+        android:title="@string/avg_engine_power_button"/>
+    <item
+        android:id="@+id/menu_max_passenger_capacity"
+        app:showAsAction="never"
+        android:title="@string/get_max_passenger_capacity_button"/>
+    <item
+        android:id="@+id/menu_tank_capacity_less_than"
+        app:showAsAction="never"
+        android:title="@string/tank_capacity_less_than_button"/>
+    <item
+        android:id="@+id/menu_engine_power_less_than_avg"
+        app:showAsAction="never"
+        android:title="@string/engine_power_less_than_avg_button"/>
+    <item
+        android:id="@+id/menu_passenger_capacity_greater_than"
+        app:showAsAction="never"
+        android:title="@string/get_passenger_capacity_greater_than"/>
+</menu>
